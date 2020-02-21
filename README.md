@@ -11,8 +11,8 @@ Max Guo's portfolio website contains three web pages:
 		User could click on the Portfolio item to open up a submenu to view type of projects.
   
   
-Visit github IO page: https://maxguojiaqi.github.io/Assignment2/index.html to view the details.
+Website leverage bootstrap built-in responsive design and some bootstrap pre-built components. As a result, webpage will rearrange content when width is 768px and when width is 992px. 
 
-Website leverage bootstrap built-in responsive design and some bootstrap pre-built components. 
+Visit github IO page: https://maxguojiaqi.github.io/Assignment2/index.html to view the details.
 
 For more infromation of bootstrap, visit: https://getbootstrap.com/
