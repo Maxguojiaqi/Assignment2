@@ -16,3 +16,4 @@ Website leverage bootstrap built-in responsive design and some bootstrap pre-bui
 Visit github IO page: https://maxguojiaqi.github.io/Assignment2/index.html to view the details.
 
 For more infromation of bootstrap, visit: https://getbootstrap.com/
+For more information of bootstrap grid and media queries, visit: https://getbootstrap.com/docs/4.4/layout/grid/
