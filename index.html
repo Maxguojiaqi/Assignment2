@@ -15,11 +15,18 @@
   <!-- create the responsive header, this part is the same for all three html pages-->
 <div class="d-flex flex-column flex-md-row align-items-center px-md-4 mb-3 bg-info border-bottom">
   <div class="mr-md-auto text-light menu-item">Max Guo</div>
-  <nav class="my-2 my-md-0 mr-md-3 navbar navbar-light ">
-    <a class="p-2 text-secondary menu-item text-light" href="index.html">About </a>|
-    <a class="p-2 text-secondary menu-item text-light" href="./html/portfolio.html">Portfolio</a>|
-    <a class="p-2 text-secondary menu-item text-light" href="./html/contact.html">Contact</a>
+  <nav class="p-0 my-2 my-md-0 md-3 navbar navbar-light ">
+    <a class="p-2 menu-item text-light" href="index.html">About </a>|
+    <a class="p-2 menu-item text-light" href="./html/contact.html">Contact</a>|
   </nav>
+  <div>
+    <!-- add a dropdown mean -->
+    <a class="p-2 menu-item text-light dropdown-toggle" data-toggle="dropdown" href="#">Portfolio</a>
+    <div id = "dropDownMenu" class="dropdown-menu bg-info" aria-labelledby="navbarDropdownMenu">
+      <a class="p-3 text-dark menu-item dropdown-item" href="./html/portfolio.html">Web Projects</a>
+      <a class="p-3 text-dark menu-item dropdown-item" href="./html/portfolio.html">Native Projects</a>
+    </div>
+  </div>
 </div>
 <!-- main information for the home page -->
 <div class="container">
